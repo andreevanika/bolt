@@ -1,7 +1,7 @@
 var readline=require("readline-sync");
-var a =parseInt(readline.question("формула, a:"));
-var b = parseInt(readline.question("формула, b:"));
-var c = parseInt(readline.question("формула, c:"));
+var a =parseInt(readline.question("chislo, a:"));
+var b = parseInt(readline.question("chislo, b:"));
+var c = parseInt(readline.question("chislo, c:"));
 console.log(" значение a " + a +" b " + b + " c " + c + "");
 a=a+c
 c=a-c
