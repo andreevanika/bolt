@@ -4,3 +4,4 @@ if(a%2==0){
     console.log("равно нулю");
 } else {
     console.log("не равно нулю")
+}
