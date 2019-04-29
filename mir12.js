@@ -19,5 +19,3 @@ for (var j=0;j<n;j+=2){
     } process.stdout.write("*\n");
 }
 
-
-
