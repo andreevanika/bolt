@@ -13,14 +13,12 @@ do{
 		random2 = random2 -x;
 		console.log("Остаток:"+random2+"");
 
-
 	}else{
 		hod = hod -1;
 		random1=parseInt(Math.floor(Math.random()*(2-1+1)+1));
 		console.log("Комп:"+random1+"");
 		random2 = random2 - random1;
 	    console.log("Остаток:"+random2+"");
-
 	}
 
 }while (random2>0);
@@ -30,10 +28,3 @@ if(hod==0){
 }else{
 	console.log(" последним ходит компьютер");
 }
-
-
-
-
-
-   
- 
